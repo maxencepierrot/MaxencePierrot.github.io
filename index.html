@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,3 +85,27 @@
 <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
+=======
+# configure si jamais
+git config --global user.name "Ton Nom"
+git config --global user.email "ton@email.com"
+
+# créer le dossier local
+mkdir mon-portfolio
+cd mon-portfolio
+git init
+git branch -M main
+
+# créer index.html (ou copier ton template)
+# puis
+git add .
+git commit -m "Initial commit"
+
+# lier au repo sur GitHub (HTTPS)
+git remote add origin https://github.com/USERNAME/REPO.git
+
+# ou SSH
+# git remote add origin git@github.com:USERNAME/REPO.git
+
+git push -u origin main
+>>>>>>> 8f9e91764f802c8818461d3bec286daadb26843d
