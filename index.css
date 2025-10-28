@@ -82,9 +82,10 @@ body,html {
     flex-direction: column;
     justify-content: center;  /* centre verticalement */
     align-items: center;      /* centre horizontalement */
-    text-align: center;       /* centre le texte */
+    text-align: center;
     transition: 1s ease-in-out;
-    padding: 0;               /* retire le décalage vers le bas */
+    padding: 0;
+    transform: translateY(40px); /* ↓ descend le bloc d'environ 1 cm */
 }
 #tagline {
     font-size:50px;
